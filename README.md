@@ -31,7 +31,7 @@ This project is componed of a web application and a server application.
 
 ## Run project
 
-First thing we should always do is verify that our app is working on a local env (your own PC !)
+First thing we should always do is verifying that our app is working on a local env (your own PC !)
 
 ```bash
 cd web
@@ -49,7 +49,7 @@ You should be able te see the web portal on the following url :
 First you will need to interact with the google platforme, in order to do that you need to log in :
 
 ```bash
-gcloud auth login --project gil-go-to-micro
+gcloud auth login --project gil-save-your-business-app
 ```
 
 ### Web-app
@@ -66,7 +66,7 @@ When it's done we will be able to deploy our fresh new package with this command
 gcloud app deploy
 ```
 
-Find the URL of the app to visualize it.
+Find the URL of the app to visualize it. You can find it with command line or with the google user interface 
 
 ### API
 
@@ -86,7 +86,7 @@ Again we are ready to deploy :
 # Find the command
 ```
 
-Congrats ! You deploy your backend to the cloud.
+Congrats ! You deployed your backend to the cloud.
 
 ### Why is it still not working ?
 
